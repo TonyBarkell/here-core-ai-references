@@ -1,12 +1,12 @@
 # HERE® Core Container AI Reference System
 
-## 🚨 CRITICAL UPDATE - 19/07/2025
+## 🚨 WORKFLOW UPDATE - 19/07/2025
 
-**Platform API Configuration Fix Applied**
-- **Issue**: Incorrect use of `platform.url` instead of `platform.providerUrl`
-- **Impact**: Default provider loaded instead of custom provider  
-- **Solution**: All templates updated to use correct `providerUrl` configuration
-- **Automation**: Setup scripts now default delivery method with validation
+**Repository Update Automation Documentation Added**
+- **Feature**: AI-driven learning and repository update workflow
+- **Components**: Workflow documentation + automation script templates
+- **Integration**: Continuous improvement process for reproduction patterns
+- **Automation**: Learning detection → agreement → file generation → GitHub sync
 
 ## Quick Start for AI Conversations
 
@@ -30,44 +30,53 @@ Create a HERE® Core Container reproduction sample for [ISSUE_TYPE] using our es
 - ✅ **Protocol Handlers**: `fin://` launch support included
 - ✅ **Debugging**: HERE Process Manager integration
 
-## Usage Guidelines
+### Learning System (NEW)
+- ✅ **Workflow Documentation**: Repository update automation process
+- ✅ **Script Templates**: Learning-driven file generation
+- ✅ **Continuous Improvement**: Pattern discovery and integration
+- ✅ **README Automation**: Direct URL updates for new files
 
-### For Support Team:
-1. **Use updated prompt templates** - setup scripts are now default delivery
-2. **Validate Platform API** - ensure `providerUrl` usage
-3. **Include protocol handlers** - `fin://` launch instructions
-4. **Reference Process Manager** - https://process-manager.here.io
-
-### For AI Assistance:
-1. **Deliver setup scripts** as primary format
-2. **Validate Platform configuration** - check `providerUrl` vs `url`
-3. **Include debugging support** - Process Manager references
-4. **Monitor for new patterns** - update learning-log/
-
-## Quick Access Links to this repository, for AI Assistance
+## Quick Access Links for AI Assistance
 
 When working with Claude or other AI assistants, use these direct links:
 
 ### Privacy Guidelines
 - [Privacy Guidelines](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/privacy-guidelines.md)
 
+### Core Templates
+- [Basic Reproduction](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/prompt-templates/basic-reproduction.md)
+- [Basic Sample Prompts](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/prompt-templates/basic-sample-promts.md)
+- [Repository Update Workflow](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/prompt-templates/repository-update-workflow.md)
+
+### Technical Patterns
+- [Platform API Patterns](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/technical-patterns/platform-api-patterns.md)
+
 ### API Reference
 - [Manifest Templates](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/api-reference/manifest-templates.md)
 
 ### Code Templates
 - [Basic Reproduction Template](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/code-templates/basic-reproduction-template.md)
+- [Repository Sync Script Template](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/code-templates/repository-sync-script-template.js)
 
 ### Learning Log
-- [Learning Log Template](https://github.com/TonyBarkell/here-core-ai-references/blob/main/learning-log/learning-log-template.md)
+- [Learning Log Template](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/learning-log/learning-log-template.md)
 
-### Prompt Templates
-- [Basic Sample Prompts](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/prompt-templates/basic-sample-promts.md)
+## Standard AI Prompt for Learning Integration
 
-### Technical Patterns
-- [Platform API Patterns](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/technical-patterns/platform-api-patterns.md)
+```
+I'm a HERE® Core Container customer support manager. Please review these reference files:
 
+**Core References:**
+- Workflow: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/prompt-templates/repository-update-workflow.md
+- Basic reproduction: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/prompt-templates/basic-reproduction.md
+- Platform patterns: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/technical-patterns/platform-api-patterns.md
+- Learning log: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/learning-log/learning-log-template.md
 
-## Standard AI Prompt
+**Learning System Active:** Monitor for new patterns and recommend repository updates.
 
-**Last Updated**: 2025-07-19T08:23:38.278Z
-**Update Method**: Automated Git script with authentication
+[SPECIFIC_REQUEST]
+```
+
+**Last Updated**: 2025-07-19T12:17:19.390Z
+**Update Method**: Workflow documentation automation
+**Feature**: AI-driven continuous improvement system
