@@ -1,82 +1,34 @@
 # HERE® Core Container AI Reference System
 
-## 🚨 WORKFLOW UPDATE - 19/07/2025
+## ERROR-DRIVEN LEARNING UPDATE - 19/07/2025
 
-**Repository Update Automation Documentation Added**
-- **Feature**: AI-driven learning and repository update workflow
-- **Components**: Workflow documentation + automation script templates
-- **Integration**: Continuous improvement process for reproduction patterns
-- **Automation**: Learning detection → agreement → file generation → GitHub sync
+**Comprehensive Script Generation Error Prevention**
+- THREE real-world syntax errors documented
+- Bulletproof string generation patterns
+- Self-improving error prevention system
+- Mandatory error-driven learning integration
 
-## Quick Start for AI Conversations
-
-**Standard Prompt:**
-```
-I'm a HERE® Core Container customer support manager. Please review my reference repository at: https://github.com/TonyBarkell/here-core-ai-references
-
-Create a HERE® Core Container reproduction sample for [ISSUE_TYPE] using our established patterns.
-```
-
-## 🔧 Critical Fixes Applied
-
-### Platform API Patterns (CRITICAL)
-- ✅ **Fixed**: `platform.url` → `platform.providerUrl` in all templates
-- ✅ **Required**: `fin.Platform.init()` call in provider HTML
-- ✅ **Validated**: Setup scripts check manifest configuration
-
-### Setup Script Automation (DEFAULT)
-- ✅ **Primary Delivery**: Node.js setup scripts create complete projects
-- ✅ **Validation**: Platform API configuration checking
-- ✅ **Protocol Handlers**: `fin://` launch support included
-- ✅ **Debugging**: HERE Process Manager integration
-
-### Learning System (NEW)
-- ✅ **Workflow Documentation**: Repository update automation process
-- ✅ **Script Templates**: Learning-driven file generation
-- ✅ **Continuous Improvement**: Pattern discovery and integration
-- ✅ **README Automation**: Direct URL updates for new files
-
-## Quick Access Links for AI Assistance
-
-When working with Claude or other AI assistants, use these direct links:
-
-### Privacy Guidelines
-- [Privacy Guidelines](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/privacy-guidelines.md)
-
-### Core Templates
-- [Basic Reproduction](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/prompt-templates/basic-reproduction.md)
-- [Basic Sample Prompts](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/prompt-templates/basic-sample-promts.md)
-- [Repository Update Workflow](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/prompt-templates/repository-update-workflow.md)
-
-### Technical Patterns
-- [Platform API Patterns](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/technical-patterns/platform-api-patterns.md)
-
-### API Reference
-- [Manifest Templates](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/api-reference/manifest-templates.md)
+## Quick Access Links
 
 ### Code Templates
-- [Basic Reproduction Template](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/code-templates/basic-reproduction-template.md)
+- [Script Generation Guidelines](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/code-templates/script-generation-guidelines.md)
 - [Repository Sync Script Template](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/code-templates/repository-sync-script-template.js)
 
-### Learning Log
+### Learning System
 - [Learning Log Template](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/learning-log/learning-log-template.md)
+- [Repository Update Workflow](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/prompt-templates/repository-update-workflow.md)
 
-## Standard AI Prompt for Learning Integration
+## MANDATORY Script Generation Prompt
 
 ```
-I'm a HERE® Core Container customer support manager. Please review these reference files:
+CRITICAL: Before generating ANY Node.js script:
 
-**Core References:**
-- Workflow: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/prompt-templates/repository-update-workflow.md
-- Basic reproduction: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/prompt-templates/basic-reproduction.md
-- Platform patterns: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/technical-patterns/platform-api-patterns.md
-- Learning log: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/learning-log/learning-log-template.md
-
-**Learning System Active:** Monitor for new patterns and recommend repository updates.
-
-[SPECIFIC_REQUEST]
+1. Reference: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/code-templates/script-generation-guidelines.md
+2. Use ONLY string concatenation (NO template literals)
+3. Always include += operators between strings
+4. Use double quotes for strings containing single quotes
+5. Test syntax with node --check before delivery
 ```
 
-**Last Updated**: 2025-07-19T12:17:19.390Z
-**Update Method**: Workflow documentation automation
-**Feature**: AI-driven continuous improvement system
+**Last Updated**: 2025-07-19T13:04:04.222Z
+**Error Prevention**: 3 documented patterns with bulletproof solutions
