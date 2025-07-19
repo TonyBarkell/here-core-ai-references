@@ -44,5 +44,30 @@ Create a HERE® Core Container reproduction sample for [ISSUE_TYPE] using our es
 3. **Include debugging support** - Process Manager references
 4. **Monitor for new patterns** - update learning-log/
 
+## Quick Access Links to this repository, for AI Assistance
+
+When working with Claude or other AI assistants, use these direct links:
+
+### Privacy Guidelines
+- [Privacy Guidelines](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/privacy-guidelines.md)
+
+### API Reference
+- [Manifest Templates](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/api-reference/manifest-templates.md)
+
+### Code Templates
+- [Basic Reproduction Template](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/code-templates/basic-reproduction-template.md)
+
+### Learning Log
+- [Learning Log Template](https://github.com/TonyBarkell/here-core-ai-references/blob/main/learning-log/learning-log-template.md)
+
+### Prompt Templates
+- [Basic Sample Prompts](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/prompt-templates/basic-sample-promts.md)
+
+### Technical Patterns
+- [Platform API Patterns](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/technical-patterns/platform-api-patterns.md)
+
+
+## Standard AI Prompt
+
 **Last Updated**: 2025-07-19T08:23:38.278Z
 **Update Method**: Automated Git script with authentication
