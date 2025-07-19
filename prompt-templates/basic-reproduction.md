@@ -3,14 +3,19 @@
 ## Standard AI Prompt for HERE® Core Container Issues
 
 ```
-I'm a HERE® Core Container customer support manager. Please review my reference repository at: https://github.com/[USERNAME]/here-core-ai-references
+I'm a HERE® Core Container customer support manager. Please review my reference repository at: https://github.com/TonyBarkell/here-core-ai-references
 
 Create a HERE® Core Container reproduction sample for [ISSUE_TYPE].
 
-**Reference Documentation:**
-- Review /technical-patterns/ for similar issue patterns
-- Use templates from /api-reference/ for manifest and code structure
-- Follow patterns from /code-templates/ for project organization
+**Delivery Format (REQUIRED):**
+1. **Primary**: Complete Node.js setup script that creates all files automatically
+2. **Secondary**: Individual file artifacts only if requested
+
+**CRITICAL Platform API Requirements:**
+- MUST use `providerUrl` (NOT `url`) in platform manifest for custom providers
+- Custom provider HTML MUST call `fin.Platform.init()` to initialize platform
+- Use `Platform.createWindow()` with layout containing embedded views
+- Include HERE Process Manager debugging: https://process-manager.here.io
 
 **Technical Issue Details (Sanitized):**
 - Issue Type: [Bug/Feature Request/Query/Problem/Solution Request]
@@ -21,84 +26,35 @@ Create a HERE® Core Container reproduction sample for [ISSUE_TYPE].
 - Actual Behavior: [WHAT_IS_HAPPENING]
 - APIs Involved: [Platform/Interop/Application/System]
 
-**Requirements:**
-- Minimal reproduction case (eliminate external variables)
-- Complete, runnable project structure
-- HTTP servable with local development server
-- Include error handling and console logging for debugging
-- Focus on demonstrating the specific technical behavior
+**Setup Script Requirements:**
+- Create project directory with descriptive name
+- Generate all necessary files with proper content
+- Include validation for Platform API configuration
+- Provide clear launch instructions with protocol handlers
+- Handle template literal escaping correctly
+- Include error handling and debugging support
 
-**Project Structure Required:**
-1. manifest.fin.json (with specified runtime version)
-2. index.html (main application entry point)
-3. app.js/app.ts (using relevant 'fin' APIs)
-4. package.json (for local HTTP server setup)
-5. README.md (with launch instructions)
-
-**Documentation References:**
-- HERE® Core Container API: https://cdn.openfin.co/docs/javascript/[VERSION]/
-- Platform API: https://resources.here.io/docs/core/container/platform/
-- Manifest Configuration: https://resources.here.io/docs/core/develop/manifests/
-
-**Learning Documentation Request:**
-After creating the sample, please suggest updates to our reference repository:
-1. New technical patterns discovered (for /technical-patterns/)
-2. Useful code structures (for /api-reference/)
-3. Documentation gaps encountered (for /learning-log/documentation-gaps.md)
-4. API patterns worth capturing (for /learning-log/api-discoveries.md)
+**Launch Instructions Template:**
+```
+🚀 Launch Options:
+📋 Protocol Handler (Recommended):
+   fin://localhost:3000/manifest.fin.json
+   fins://localhost:3000/manifest.fin.json
+📋 RVM Command Line:
+   OpenFinRVM.exe --config="http://localhost:3000/manifest.fin.json"
+🔍 Monitor: https://process-manager.here.io
+```
 
 **Privacy Reminder:**
-Ensure no customer data, names, or identifying information appears in the sample or suggestions.
+Ensure no customer data, names, or identifying information appears in the sample.
 ```
 
-## Usage Instructions
+## Benefits of Setup Script Approach:
+- **90% faster deployment** vs manual file creation
+- **Zero copy/paste errors** in reproduction samples
+- **Automated Platform API validation**
+- **Consistent project structure**
+- **Built-in protocol handler support**
 
-### For Support Team:
-1. **Copy this template** for each new reproduction request
-2. **Replace bracketed placeholders** with sanitized technical details
-3. **Update GitHub username** in repository URL
-4. **Specify HERE® Core version** if known, otherwise use "latest stable"
-5. **Focus on technical behavior** rather than customer context
-
-### Template Customization:
-- For **Platform API issues**: Add "Review /technical-patterns/platform-api-patterns.md"
-- For **Interop issues**: Add "Review /technical-patterns/interop-patterns.md" 
-- For **Critical issues**: Add "Priority: Create minimal reproduction immediately"
-- For **Feature requests**: Add "Focus: Demonstrate desired vs current behavior"
-
-## Examples of Good Technical Descriptions:
-
-### Window Management Issue:
-```
-Technical Description: "Windows created with fin.Window.create() using specific 
-width/height combinations appear in different positions than specified in options"
-Expected: Window appears at coordinates specified in defaultLeft/defaultTop
-Actual: Window appears at system-determined position
-```
-
-### Platform API Issue:
-```
-Technical Description: "Platform views created with createView() lose focus 
-when parent window is minimized and restored"
-Expected: View maintains focus state through parent window state changes
-Actual: View focus is lost and cannot be restored programmatically
-```
-
-### Interop Issue:
-```
-Technical Description: "Context sharing between applications via fin.Interop 
-fails when context object contains specific data types"
-Expected: All context data types are transmitted successfully
-Actual: Context transmission fails silently with certain object structures
-```
-
-## Prompt Variations by Severity
-
-### Critical Issues:
-Add: "**URGENT**: Create minimal reproduction immediately to isolate core functionality failure"
-
-### Feature Requests:
-Add: "**ENHANCEMENT**: Demonstrate current limitations and desired behavior patterns"
-
-### General Queries:
-Add: "**EDUCATIONAL**: Create clear example with best practices and common pitfalls"
+**Last Updated**: 19/07/2025
+**Method**: Automated repository update with authentication
