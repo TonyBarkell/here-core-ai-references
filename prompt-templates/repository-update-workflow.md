@@ -1,54 +1,37 @@
-# Repository Update Workflow - Error-Driven Learning
+# Repository Update Workflow - Enhanced with Clarification
 
-## MANDATORY Error-Driven Learning Process
+## Enhanced Workflow Process
 
-When script errors are discovered:
+### Step 1: Clarification Phase (NEW)
+**MANDATORY before sample creation:**
+1. Review issue description for ambiguous terminology
+2. Ask specific clarification questions using terminology guide
+3. Confirm understanding before proceeding
+4. Document any new terminology patterns discovered
 
-1. **Document Error Pattern** - Add to script-generation-guidelines.md
-2. **Update Learning Log** - Create entry with error details
-3. **Fix Script** - Use bulletproof patterns only
-4. **Update Repository** - Include comprehensive prevention
-5. **Regenerate** - Create working script with safe patterns
+### Step 2: Sample Creation
+1. Use confirmed understanding to create accurate sample
+2. Follow established Platform API patterns
+3. Generate setup script with bulletproof patterns
+4. Include validation and debugging support
 
-## Bulletproof Script Generation Standards
+### Step 3: Learning Capture
+1. Identify new patterns or clarifications needed
+2. Generate repository update scripts
+3. Request user confirmation for updates
+4. Update learning log with insights
 
-### NEVER Use Template Literals
-```javascript
-// NEVER DO THIS
-// const content = `some ${variable}`;  // FORBIDDEN
+### Step 4: Repository Sync
+1. User confirms updates
+2. Apply updates to local repository
+3. Commit and push to GitHub
+4. Verify integration success
 
-// ALWAYS DO THIS
-let content = "";
-content += "some " + variable;
-```
-
-### Always Use Concatenation Operators
-```javascript
-// NEVER DO THIS
-// let content = "line1"
-//              "line2";  // MISSING +
-
-// ALWAYS DO THIS
-let content = "";
-content += "line1\n";
-content += "line2\n";
-```
-
-### Handle Quotes Safely
-```javascript
-// For content with single quotes, use double quotes
-content += "const msg = 'Hello World';\n";
-// For content with double quotes, use single quotes
-content += 'const msg = "Hello World";\n';
-```
-
-## Quality Assurance
-
-Before any script delivery:
-- Verify all string concatenation has + or += operators
-- Check quote escaping patterns
-- Run node --check on generated scripts
-- Follow documented error prevention patterns
+## Benefits of Enhanced Workflow
+- **Prevents expensive re-work** from terminology confusion
+- **Captures customer language patterns** for future reference
+- **Improves first-attempt accuracy** of reproduction samples
+- **Builds institutional knowledge** about common confusions
 
 **Last Updated**: 19/07/2025
-**Status**: Active error-driven learning with bulletproof patterns
+**Enhancement**: Mandatory clarification phase integration
