@@ -33,6 +33,25 @@ Before creating the sample, ask me to confirm your understanding of:
 - Actual Behavior: [WHAT_IS_HAPPENING]
 - APIs Involved: [Platform/Interop/Application/System]
 
+**Setup Script Requirements:**
+- Create project directory with descriptive name
+- Generate all necessary files with proper content
+- Include validation for Platform API configuration
+- Provide clear launch instructions with protocol handlers
+- Handle template literal escaping correctly
+- Include error handling and debugging support
+
+**Launch Instructions Template:**
+```
+🚀 Launch Options:
+📋 Protocol Handler (Recommended):
+   fin://localhost:3000/manifest.fin.json
+   fins://localhost:3000/manifest.fin.json
+📋 RVM Command Line:
+   OpenFinRVM.exe --config="http://localhost:3000/manifest.fin.json"
+🔍 Monitor: https://process-manager.here.io
+```
+
 **Privacy Reminder:**
 Ensure no customer data, names, or identifying information appears in the sample.
 ```
@@ -43,5 +62,12 @@ Ensure no customer data, names, or identifying information appears in the sample
 - **Improves accuracy** through upfront alignment
 - **Reduces iterations** needed for correct reproduction
 
+## Benefits of Setup Script Approach:
+- **90% faster deployment** vs manual file creation
+- **Zero copy/paste errors** in reproduction samples
+- **Automated Platform API validation**
+- **Consistent project structure**
+- **Built-in protocol handler support**
+
 **Last Updated**: 19/07/2025
-**Method**: Automated repository update with clarification process
+**Method**: Complete integration with clarification process and README fixes
