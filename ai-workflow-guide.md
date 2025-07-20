@@ -17,7 +17,7 @@ HERE® Core Container support encompasses multiple deliverable types:
 ### Phase 1: Request Analysis
 **Objective**: Understand what type of deliverable is needed
 
-**Process**: [detailed-workflows/request-analysis.md](detailed-workflows/request-analysis.md)
+**Process**: [Request Analysis Workflow](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/detailed-workflows/request-analysis.md)
 
 **Key Questions**:
 - What type of deliverable is needed?
@@ -27,7 +27,7 @@ HERE® Core Container support encompasses multiple deliverable types:
 ### Phase 2: API Detection & Confirmation
 **Objective**: Identify which HERE® Core APIs are involved
 
-**Process**: [detailed-workflows/api-detection.md](detailed-workflows/api-detection.md)
+**Process**: [API Detection Workflow](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/detailed-workflows/api-detection.md)
 
 **Key Patterns**:
 - Explicit API mentions vs implicit terminology
@@ -37,23 +37,23 @@ HERE® Core Container support encompasses multiple deliverable types:
 ### Phase 3: Method Selection
 **Objective**: Choose optimal implementation approach
 
-**Process**: [detailed-workflows/method-selection.md](detailed-workflows/method-selection.md)
+**Process**: [Method Selection Workflow](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/detailed-workflows/method-selection.md)
 
 **Conditional Access**:
-- Platform API scenarios → [technical-patterns/platform-api-patterns.md](technical-patterns/platform-api-patterns.md)
-- Multiple view scenarios → [technical-patterns/layout-performance-patterns.md](technical-patterns/layout-performance-patterns.md)
-- Script generation → [code-templates/script-generation-guidelines.md](code-templates/script-generation-guidelines.md)
+- Platform API scenarios → [Platform API Patterns](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/technical-patterns/platform-api-patterns.md)
+- Multiple view scenarios → [Layout Performance Patterns](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/technical-patterns/layout-performance-patterns.md)
+- Script generation → [Script Generation Guidelines](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/code-templates/script-generation-guidelines.md)
 
 ## Resource Navigation
 
 ### Core Resources
-- **[Glossary](glossary.md)**: HERE® terminology with external documentation links
-- **[Technical Patterns](technical-patterns/)**: API-specific implementation patterns
-- **[Code Templates](code-templates/)**: Script generation and bulletproof coding patterns
-- **[Prompt Templates](prompt-templates/)**: Standard conversation starters
+- **[Glossary](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/glossary.md)**: HERE® terminology with external documentation links
+- **Technical Patterns**: API-specific implementation patterns
+- **Code Templates**: Script generation and bulletproof coding patterns
+- **Prompt Templates**: Standard conversation starters
 
 ### Learning Integration
-- **[Learning Log](learning-log/)**: Continuous improvement documentation
+- **Learning Log**: Continuous improvement documentation
 - **Update Process**: Each interaction can contribute to repository knowledge
 - **Pattern Discovery**: New patterns automatically integrated into appropriate files
 
@@ -124,3 +124,4 @@ Platform API + Multiple Views
 **Purpose**: Entry point for all HERE® Core Container AI assistant workflows
 **Integration**: Links to all repository resources with conditional access patterns
 **Scope**: Reproduction samples, starters, queries, demos, and technical patterns
+**URLs**: Updated to raw.githubusercontent.com for AI assistant access
