@@ -1,201 +1,125 @@
 # HERE® Core Container AI Reference System
 
-## 🚨 COMPLETE SYSTEM UPDATE - 19/07/2025
+## Purpose
+Comprehensive reference repository for AI assistants supporting HERE® Core Container customer interactions. Provides structured workflows, technical patterns, and terminology guidance for consistent, high-quality support.
 
-**Repository Update Automation + Error-Driven Learning System**
-- **Feature**: AI-driven learning and repository update workflow
-- **Components**: Workflow documentation + automation script templates
-- **Integration**: Continuous improvement process for reproduction patterns
-- **Automation**: Learning detection → agreement → file generation → GitHub sync
-- **Error Prevention**: Self-improving system with comprehensive script generation guidelines
-- **Quality Assurance**: Four documented error patterns with bulletproof prevention
-- **NEW**: Terminology clarification system to prevent customer confusion
-- **NEW**: Layout performance optimization for multiple view scenarios
+## Repository Structure
 
-## Quick Start for AI Conversations
+### Core Workflow Files
+- **[ai-workflow-guide.md](ai-workflow-guide.md)** - Entry point for all AI assistant workflows
+- **[glossary.md](glossary.md)** - Comprehensive terminology with external documentation links
+- **[detailed-workflows/](detailed-workflows/)** - Step-by-step process documentation
 
-**Enhanced Prompt with Performance Optimization:**
+### Technical Resources
+- **[technical-patterns/](technical-patterns/)** - API-specific implementation patterns and best practices
+- **[api-reference/](api-reference/)** - Templates and configuration examples
+- **[code-templates/](code-templates/)** - Script generation guidelines and templates
+
+### Support Materials
+- **[prompt-templates/](prompt-templates/)** - Standard conversation starters and formats
+- **[learning-log/](learning-log/)** - Continuous improvement documentation
+- **[privacy-guidelines.md](privacy-guidelines.md)** - Customer data protection guidelines
+
+## Supported Deliverable Types
+
+### Reproduction Samples
+Complete runnable projects that replicate customer issues for debugging and resolution.
+
+### General Starters
+Foundation template projects providing starting points for HERE® Core Container development.
+
+### Query Responses
+Information and guidance without runnable code for conceptual or procedural questions.
+
+### Educational Demos
+Conceptual examples demonstrating specific HERE® Core Container capabilities.
+
+## Quick Start for AI Assistants
+
+### Basic Workflow
+1. **Start with**: [ai-workflow-guide.md](ai-workflow-guide.md)
+2. **Reference terminology**: [glossary.md](glossary.md)
+3. **Follow detailed processes**: [detailed-workflows/](detailed-workflows/)
+4. **Access technical patterns**: [technical-patterns/](technical-patterns/) as needed
+
+### Standard Prompt Template
 ```
-I'm a HERE® Core Container customer support manager. Please review my reference repository at: https://github.com/TonyBarkell/here-core-ai-references
+Working with HERE® Core Container support team. Please review the AI workflow guide at:
+https://github.com/TonyBarkell/here-core-ai-references/blob/main/ai-workflow-guide.md
 
-Create a HERE® Core Container reproduction sample for [ISSUE_TYPE] using our established patterns.
-
-CRITICAL: For multiple view scenarios, consider layout restore vs sequential creation based on performance requirements.
-```
-
-## 🔧 Critical Fixes Applied
-
-### Layout Performance Optimization (NEW)
-- ✅ **Added**: Layout restore patterns for multiple view performance testing
-- ✅ **Performance**: Simultaneous view creation vs sequential API calls
-- ✅ **Decision Guide**: When to use layout restore vs sequential creation
-- ✅ **Documentation**: Complete performance optimization patterns
-
-### Terminology Clarification System (ENHANCED)
-- ✅ **Added**: Mandatory clarification step in reproduction workflow
-- ✅ **Enhanced**: Layout vs sequential creation decision guidance
-- ✅ **Prevents**: Views vs windows terminology confusion
-- ✅ **Optimizes**: Performance through proper method selection
-
-### Platform API Patterns (CRITICAL)
-- ✅ **Fixed**: `platform.url` → `platform.providerUrl` in all templates
-- ✅ **Required**: `fin.Platform.init()` call in provider HTML
-- ✅ **Validated**: Setup scripts check manifest configuration
-
-### Setup Script Automation (DEFAULT)
-- ✅ **Primary Delivery**: Node.js setup scripts create complete projects
-- ✅ **Validation**: Platform API configuration checking
-- ✅ **Protocol Handlers**: `fin://` launch support included
-- ✅ **Debugging**: HERE Process Manager integration
-
-### Learning System (ACTIVE)
-- ✅ **Workflow Documentation**: Repository update automation process
-- ✅ **Script Templates**: Learning-driven file generation
-- ✅ **Continuous Improvement**: Pattern discovery and integration
-- ✅ **README Automation**: Direct URL updates for new files
-
-### Error-Driven Learning System (ENHANCED)
-- ✅ **Script Generation Guidelines**: Comprehensive error prevention with 4 documented patterns
-- ✅ **Template Literal Error Prevention**: SyntaxError pattern #1 documented and solved
-- ✅ **Quote Escaping Error Prevention**: SyntaxError pattern #2 documented and solved
-- ✅ **Missing Operator Error Prevention**: SyntaxError pattern #3 documented and solved
-- ✅ **README Integration Error Prevention**: Pattern #4 documented and solved
-- ✅ **Bulletproof Patterns**: Safe string concatenation methods for all script generation
-- ✅ **Self-Improvement**: Every discovered error enhances the repository
-
-## Usage Guidelines
-
-### For Support Team:
-1. **Use updated prompt templates** - setup scripts are now default delivery
-2. **Follow clarification process** - ask terminology questions before sample creation
-3. **Consider performance patterns** - use layout restore for multiple view testing
-4. **Validate Platform API** - ensure `providerUrl` usage
-5. **Include protocol handlers** - `fin://` launch instructions
-6. **Reference Process Manager** - https://process-manager.here.io
-7. **Follow script generation guidelines** - prevent syntax errors
-
-### For AI Assistance:
-1. **MANDATORY**: Ask clarification questions before creating samples
-2. **PERFORMANCE**: Choose layout restore vs sequential based on use case
-3. **Deliver setup scripts** as primary format
-4. **Validate Platform configuration** - check `providerUrl` vs `url`
-5. **Include debugging support** - Process Manager references
-6. **Monitor for new patterns** - update learning-log/
-7. **Follow error prevention guidelines** - use bulletproof script patterns
-8. **Update README** when adding/moving files
-
-## Quick Access Links for AI Assistance
-
-When working with Claude or other AI assistants, use these direct links:
-
-### Privacy Guidelines
-- [Privacy Guidelines](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/privacy-guidelines.md)
-
-### Core Templates
-- [Basic Reproduction](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/prompt-templates/basic-reproduction.md)
-- [Basic Sample Prompts](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/prompt-templates/basic-sample-promts.md)
-- [Repository Update Workflow](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/prompt-templates/repository-update-workflow.md)
-
-### Technical Patterns
-- [Platform API Patterns](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/technical-patterns/platform-api-patterns.md)
-- [Terminology Clarification](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/technical-patterns/terminology-clarification.md)
-- [Layout Performance Patterns](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/technical-patterns/layout-performance-patterns.md)
-
-### API Reference
-- [Manifest Templates](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/api-reference/manifest-templates.md)
-
-### Code Templates
-- [Basic Reproduction Template](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/code-templates/basic-reproduction-template.md)
-- [Repository Sync Script Template](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/code-templates/repository-sync-script-template.js)
-- [Script Generation Guidelines](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/code-templates/script-generation-guidelines.md)
-- [Content Preservation Guidelines](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/code-templates/content-preservation-guidelines.md)
-
-### Learning Log
-- [Learning Log Template](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/learning-log/learning-log-template.md)
-
-## Standard AI Prompts
-
-### Enhanced Performance-Aware Prompt (RECOMMENDED)
-```
-I'm a HERE® Core Container customer support manager. Please review these reference files:
-
-**MANDATORY Clarification References:**
-- Terminology guide: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/technical-patterns/terminology-clarification.md
-- Layout performance: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/technical-patterns/layout-performance-patterns.md
-- Basic reproduction: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/prompt-templates/basic-reproduction.md
-
-**Core References:**
-- Workflow: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/prompt-templates/repository-update-workflow.md
-- Platform patterns: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/technical-patterns/platform-api-patterns.md
-- Learning log: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/learning-log/learning-log-template.md
-
-**CRITICAL**: Ask clarification questions AND choose optimal approach for multiple view scenarios.
-
-[SPECIFIC_REQUEST]
+Then follow the information gathering workflow for this request: [CUSTOMER_REQUEST]
 ```
 
-### Script Generation Prompt (MANDATORY)
-```
-I'm a HERE® Core Container customer support manager. Please review these reference files:
+## Key Features
 
-**MANDATORY Script Generation Standards:**
-- Script guidelines: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/code-templates/script-generation-guidelines.md
-- Content preservation: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/code-templates/content-preservation-guidelines.md
+### Intelligent Workflow Routing
+- Automatic detection of request types and API scope
+- Conditional access to technical patterns based on requirements
+- Progressive clarification process for ambiguous requests
 
-**Core References:**
-- Workflow: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/prompt-templates/repository-update-workflow.md
-- Basic reproduction: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/prompt-templates/basic-reproduction.md
-- Platform patterns: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/technical-patterns/platform-api-patterns.md
-- Layout performance: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/technical-patterns/layout-performance-patterns.md
+### Performance Optimization
+- Layout restore vs sequential creation guidance for multiple views
+- Method selection based on use case requirements
+- Performance measurement patterns and debugging support
 
-**CRITICAL**: Follow script generation guidelines + update README for new files + optimize performance.
+### Error Prevention
+- Bulletproof script generation guidelines
+- Platform API configuration validation
+- Common terminology confusion prevention
 
-[SPECIFIC_REQUEST]
-```
+### Continuous Learning
+- Learning capture mechanisms in all files
+- Pattern discovery and integration workflows
+- Cross-referenced documentation for easy maintenance
 
-## Error Prevention System
+## Integration Points
 
-### Documented Error Patterns
-The repository includes comprehensive documentation for four discovered patterns:
+### External Documentation
+The repository extensively links to official HERE® documentation:
+- Layout patterns: https://resources.here.io/docs/core/container/layouts/save-layouts
+- Platform API: https://resources.here.io/docs/core/container/platform-provider
+- Process Manager: https://process-manager.here.io
 
-1. **Template Literal Nesting Errors**
-   - Error: `SyntaxError: Invalid or unexpected token`
-   - Cause: Using template literals to generate content containing backticks
-   - Solution: Use string concatenation exclusively
+### Development Tools
+- Setup script automation for complete project generation
+- Protocol handler support for easy application launching
+- HERE Process Manager integration for debugging
 
-2. **Quote Escaping Conflicts**
-   - Error: `SyntaxError: Invalid or unexpected token`
-   - Cause: Unescaped quotes in string concatenation
-   - Solution: Use double quotes for outer strings with single quote content
+## Contributing and Updates
 
-3. **Missing Concatenation Operators**
-   - Error: `SyntaxError: Unexpected identifier`
-   - Cause: Missing + or += operators between string parts
-   - Solution: Always use explicit concatenation operators
+### Learning Integration
+Each interaction with the repository can contribute to its knowledge base:
+- New terminology automatically captured in glossary
+- Pattern discoveries integrated into technical files
+- Workflow improvements documented in learning log
 
-4. **README Integration Gaps**
-   - Error: New files not accessible to AI because missing from Quick Access Links
-   - Cause: Repository update scripts not updating README.md
-   - Solution: Always update README when adding/moving files
+### Update Process
+1. Identify new patterns or improvements during support interactions
+2. Document findings in appropriate repository files
+3. Update cross-references and navigation links
+4. Test workflow with updated content
+5. Commit changes with descriptive learning documentation
 
-5. **Performance Anti-patterns (NEW)**
-   - Error: Using sequential view creation for performance testing
-   - Cause: Not considering layout restore for multiple view scenarios
-   - Solution: Use layout restore for simultaneous view creation
+## Support Team Usage
 
-### Bulletproof Script Generation Rules
-**MANDATORY for all Node.js script generation:**
+### For Customer Support Representatives
+- Use standard prompt templates for consistent AI interactions
+- Reference glossary for HERE® terminology clarification
+- Follow workflow guides for structured problem-solving approach
 
-1. Use string concatenation only - No template literals for content generation
-2. Always include concatenation operators - Every string needs += or +
-3. Choose quote types carefully - Avoid conflicts between outer and inner quotes
-4. Build incrementally - Use `content += "line\n";` pattern
-5. Test syntax - Run `node --check script.js` before delivery
-6. Update README Quick Access Links when adding/moving files
-7. **NEW**: Consider performance implications for multiple view scenarios
+### For Technical Support Engineers
+- Access technical patterns for implementation guidance
+- Use reproduction sample templates for issue replication
+- Contribute new patterns and learnings to repository
 
-**Last Updated**: 19/07/2025
-**Update Method**: Complete system integration with layout performance optimization
-**Features**: Full HERE® Core Container reference system with performance-aware patterns
-**Error Prevention**: 5 documented patterns with bulletproof solutions including performance optimization
-**Integration**: AI-driven continuous improvement system with layout performance guidance
+### For Support Managers
+- Monitor learning log for process improvements
+- Review workflow effectiveness and identify optimization opportunities
+- Ensure team adherence to established patterns and guidelines
+
+---
+
+**Last Updated**: 20/07/2025
+**Repository Version**: Tree Structure with Entry Point and Enhanced Glossary
+**Primary Contact**: HERE® Core Container Support Team
+**Documentation**: Complete AI assistant workflow system for HERE® Core Container support
