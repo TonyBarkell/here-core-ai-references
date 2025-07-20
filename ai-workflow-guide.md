@@ -1,7 +1,7 @@
-# AI Workflow Guide - Entry Point (Enhanced with Script Generation)
+# AI Workflow Guide - Entry Point
 
 ## Purpose
-This guide provides AI assistants with a structured workflow for HERE® Core Container customer support interactions.
+This guide provides AI assistants with a structured workflow for HERE® Core Container customer support interactions. It serves as the entry point to all repository resources.
 
 ## Scope of Support
 HERE® Core Container support encompasses multiple deliverable types:
@@ -10,71 +10,44 @@ HERE® Core Container support encompasses multiple deliverable types:
 - **General Starters**: Foundation templates for development projects
 - **Query Responses**: Information and guidance without runnable code
 - **Educational Demos**: Conceptual examples and explanations
+- **Technical Patterns**: Reusable implementation approaches
 
-## Information Gathering Workflow
+## CRITICAL: Complete Project Structure Requirements
 
-### Phase 1: Request Analysis
-**Objective**: Understand what type of deliverable is needed
+### For ALL Reproduction Samples:
+When creating reproduction samples, AI assistants MUST generate complete HERE® Core Container projects including:
 
-**Process**: [Request Analysis Workflow](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/detailed-workflows/request-analysis.md)
+1. **Access Project Structure Requirements**: [Complete Project Structure Requirements](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/technical-patterns/complete-project-structure-requirements.md)
 
-### Phase 2: API Detection & Confirmation
-**Objective**: Identify which HERE® Core APIs are involved
+2. **Generate Complete Project**: Never generate standalone HTML files
+   - ALWAYS include development server (Node.js/Express)
+   - ALWAYS include HERE® Core Container manifest (app.json)
+   - ALWAYS include platform provider (for Platform API)
+   - ALWAYS include launch instructions with multiple methods
+   - ALWAYS use bulletproof script generation patterns
 
-**Process**: [API Detection Workflow](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/detailed-workflows/api-detection.md)
+3. **Validation Required**: 
+   - Check manifest uses `providerUrl` for Platform API (NOT `url`)
+   - Verify platform provider calls `fin.Platform.init()`
+   - Include multiple launch methods (CLI, FINS, direct)
+   - Provide complete setup documentation
 
-### Phase 3: Method Selection
-**Objective**: Choose optimal implementation approach
+### Project Structure Validation Checklist:
+- [ ] Express server with CORS for HERE® Core Container
+- [ ] HERE® Core Container manifest (app.json) with proper configuration
+- [ ] Platform provider (provider.html) if Platform API
+- [ ] Package.json with dependencies and launch scripts
+- [ ] Public directory structure for static files
+- [ ] Complete README with setup and launch instructions
+- [ ] Multiple launch methods (CLI, FINS URL, direct manifest)
 
-**Process**: [Method Selection Workflow](https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/detailed-workflows/method-selection.md)
-
-### Phase 4: Implementation with Script Generation Validation (NEW)
-**Objective**: Create deliverable while ensuring bulletproof script generation
-
-**MANDATORY Script Generation Protocol**:
-When creating ANY Node.js scripts, setup scripts, or JavaScript files:
-
-1. **FIRST**: Access Script Generation Guidelines
-2. **APPLY**: Bulletproof patterns (string concatenation only)
-3. **VALIDATE**: Syntax patterns before delivery
-4. **VERIFY**: No template literals, proper escaping
-
-**Critical Error Prevention**:
-- ❌ NEVER use template literals for content generation
-- ❌ NEVER mix quote types without proper escaping
-- ❌ NEVER omit concatenation operators
-- ✅ ALWAYS use string concatenation pattern
-
-## Resource Navigation
-
-### Core Resources
-- **Glossary**: HERE® terminology with external documentation links
-- **Technical Patterns**: API-specific implementation patterns
-- **Code Templates**: Script generation and bulletproof coding patterns
-
-### Script Generation Resources (MANDATORY)
-- **Script Generation Guidelines**: Bulletproof error prevention patterns
-- **Content Preservation Guidelines**: Safe content handling
-
-## Decision Trees
-
-### Script Generation Decision Flow (NEW)
-Implementation Phase
-├── Requires Node.js/JavaScript files → MANDATORY: Access script guidelines first
-├── Setup script needed → Apply bulletproof patterns
-├── Template generation → Use string concatenation only
-└── No scripts needed → Proceed with standard patterns
-
-## Success Criteria
-
-### Script Generation Success (NEW)
-- **Bulletproof patterns applied** to all JavaScript/Node.js files
-- **Syntax validation** completed before delivery
-- **Error prevention guidelines** followed throughout
-- **Template literal avoidance** in all content generation
+### ERROR PREVENTION:
+- ❌ NEVER generate standalone HTML files for HERE® Core Container
+- ❌ NEVER omit development server infrastructure
+- ❌ NEVER use `url` instead of `providerUrl` in Platform API manifests
+- ❌ NEVER create projects without launch instructions
 
 ---
 
 **Last Updated**: 20/07/2025
-**Enhancement**: Mandatory bulletproof script generation integration
-**URLs**: Updated to raw.githubusercontent.com for AI assistant access
+**Critical Update**: Added complete project structure requirements for HERE® Core Container
