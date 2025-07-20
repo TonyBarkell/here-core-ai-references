@@ -1,65 +1,52 @@
-# Current AI Workflow Prompt Template
+# Current AI Workflow Prompt Template (Enhanced with Script Generation)
 
 ## ✅ CURRENT - Use This Prompt
 
-### Standard Workflow Prompt
-```
+### Standard AI Workflow Prompt with Script Generation
 Working with HERE® Core Container support team. Please review the AI workflow guide at:
 https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/ai-workflow-guide.md
+
+CRITICAL for script generation: Follow bulletproof patterns from:
+https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/code-templates/script-generation-guidelines.md
 
 Then follow the information gathering workflow for this request: [CUSTOMER_REQUEST]
-```
 
-### Enhanced Prompt (For Complex Scenarios)
-```
-Working with HERE® Core Container support team. Please review the AI workflow guide at:
-https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/ai-workflow-guide.md
+## Script Generation Integration (NEW)
 
-**Additional Context** (access as needed):
-- Glossary: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/glossary.md
-- Platform Patterns: https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/technical-patterns/platform-api-patterns.md
+### Mandatory Script Generation Protocol
+When ANY prompt involves creating Node.js scripts, setup scripts, or JavaScript files:
 
-CRITICAL: Follow systematic information gathering before creating deliverables.
+**BEFORE script generation**:
+1. ✅ Access script generation guidelines first
+2. ✅ Apply bulletproof patterns (string concatenation only)
+3. ✅ Validate syntax patterns mentally
+4. ✅ Use incremental building approach
 
-[CUSTOMER_REQUEST]
-```
+**During script generation**:
+- ❌ NEVER use template literals for content generation
+- ❌ NEVER mix quote types without proper escaping
+- ❌ NEVER omit concatenation operators
+- ✅ ALWAYS use string concatenation pattern
+- ✅ ALWAYS choose quote types carefully
 
-## Why This Prompt Works
+## Why This Enhanced Prompt Works
 
-### Systematic Process
+### Systematic Process with Error Prevention
 1. **Request Analysis** - Determines deliverable type
 2. **API Detection** - Identifies HERE® Core APIs
 3. **Method Selection** - Chooses optimal approach
-4. **Implementation** - Creates deliverable
+4. **Script Generation Validation** - Applies bulletproof patterns
+5. **Implementation** - Creates deliverable using appropriate patterns
 
-### Prevents Common Issues
+### Prevents All Known Issues
 - **Layout vs Sequential Confusion** - Systematic method selection
 - **Premature Implementation** - Information gathering first
 - **API Assumptions** - Explicit confirmation
 - **Performance Anti-patterns** - Optimal approach selection
-
-## Usage Examples
-
-### Reproduction Sample
-**Customer Request:** Platform API window with 20 views takes 5 minutes
-
-**Expected AI Behavior:**
-1. ✅ Access workflow guide
-2. ✅ Detect Platform API + performance
-3. ✅ Ask method preference
-4. ✅ Implement optimal approach
-
-### Information Request
-**Customer Request:** What is difference between views and windows?
-
-**Expected AI Behavior:**
-1. ✅ Access workflow guide
-2. ✅ Detect query response type
-3. ✅ Access glossary
-4. ✅ Provide explanation with links
+- **Script Generation Errors** - Bulletproof syntax patterns
 
 ---
 
 **Last Updated**: 20/07/2025
-**Purpose**: Current AI workflow prompt for HERE® Core Container support
-**Critical**: Use this instead of deprecated templates
+**Purpose**: Enhanced AI workflow prompt with bulletproof script generation
+**Critical**: Use this instead of any deprecated templates
