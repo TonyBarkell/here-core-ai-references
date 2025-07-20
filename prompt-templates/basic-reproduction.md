@@ -1,73 +1,61 @@
 # Basic Reproduction Sample Prompt Template
 
-## Standard AI Prompt for HERE® Core Container Issues
+## ⚠️ DEPRECATED - Do Not Use This Template
+
+**This template has been superseded by the AI Workflow Guide system.**
+
+### ❌ Problems with This Template:
+- **Skips information gathering** - jumps to implementation
+- **No method selection** - causes layout vs sequential confusion
+- **Missing API detection** - assumes scope without confirmation
+- **No performance optimization** - inefficient multiple view patterns
+
+## ✅ Use This Instead:
+
+### Current AI Workflow Prompt
+```
+Working with HERE® Core Container support team. Please review the AI workflow guide at:
+https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/ai-workflow-guide.md
+
+Then follow the information gathering workflow for this request: [CUSTOMER_REQUEST]
+```
+
+### Why New Approach Works Better
+1. **Systematic Information Gathering** - Determines requirements
+2. **API Detection** - Identifies scope accurately
+3. **Method Selection** - Layout restore vs sequential
+4. **Performance Optimization** - Prevents inefficient patterns
+5. **Error Prevention** - Structured validation
+
+## Migration Guide
+
+### Old vs New Comparison
+| Old Template | New Workflow | Benefit |
+|--------------|--------------|----------|
+| Direct implementation | Information gathering first | Prevents errors |
+| Assumes scope | API detection | Accurate guidance |
+| No method selection | Systematic selection | Optimal performance |
+| Fixed approach | Flexible requirements | Right solution |
+
+### Historical Context
+This template caused several issues:
+
+1. **Layout vs Sequential Confusion** - Wrong method selection
+2. **Missing Performance Optimization** - No multiple view guidance
+3. **Inadequate Information Gathering** - Premature implementation
+4. **API Assumptions** - No scope confirmation
+
+## Original Template (Reference Only)
 
 ```
-I'm a HERE® Core Container customer support manager. Please review my reference repository at: https://github.com/TonyBarkell/here-core-ai-references
-
+I'm a HERE® Core Container customer support manager.
 Create a HERE® Core Container reproduction sample for [ISSUE_TYPE].
-
-**MANDATORY CLARIFICATION STEP:**
-Before creating the sample, ask me to confirm your understanding of:
-- Views vs Windows terminology (default: "multiple views" = views within same window)
-- Platform API usage expectations
-- Any ambiguous technical terms in the issue description
-- Expected user interaction flow
-
-**Delivery Format (REQUIRED):**
-1. **Primary**: Complete Node.js setup script that creates all files automatically
-2. **Secondary**: Individual file artifacts only if requested
-
-**CRITICAL Platform API Requirements:**
-- MUST use `providerUrl` (NOT `url`) in platform manifest for custom providers
-- Custom provider HTML MUST call `fin.Platform.init()` to initialize platform
-- Use `Platform.createWindow()` with layout containing embedded views
-- Include HERE Process Manager debugging: https://process-manager.here.io
-
-**Technical Issue Details (Sanitized):**
-- Issue Type: [Bug/Feature Request/Query/Problem/Solution Request]
-- Severity: [Critical/High/Medium/Low]
-- HERE® Core Version: [SPECIFIC_VERSION or "latest stable"]
-- Technical Description: "[ANONYMIZED_TECHNICAL_ISSUE]"
-- Expected Behavior: [WHAT_SHOULD_HAPPEN]
-- Actual Behavior: [WHAT_IS_HAPPENING]
-- APIs Involved: [Platform/Interop/Application/System]
-
-**Setup Script Requirements:**
-- Create project directory with descriptive name
-- Generate all necessary files with proper content
-- Include validation for Platform API configuration
-- Provide clear launch instructions with protocol handlers
-- Handle template literal escaping correctly
-- Include error handling and debugging support
-
-**Launch Instructions Template:**
-```
-🚀 Launch Options:
-📋 Protocol Handler (Recommended):
-   fin://localhost:3000/manifest.fin.json
-   fins://localhost:3000/manifest.fin.json
-📋 RVM Command Line:
-   OpenFinRVM.exe --config="http://localhost:3000/manifest.fin.json"
-🔍 Monitor: https://process-manager.here.io
+[Additional content omitted - DO NOT USE]
 ```
 
-**Privacy Reminder:**
-Ensure no customer data, names, or identifying information appears in the sample.
-```
+---
 
-## Benefits of Clarification Step:
-- **Prevents misconceptions** about views vs windows
-- **Saves token usage** by avoiding incorrect samples
-- **Improves accuracy** through upfront alignment
-- **Reduces iterations** needed for correct reproduction
-
-## Benefits of Setup Script Approach:
-- **90% faster deployment** vs manual file creation
-- **Zero copy/paste errors** in reproduction samples
-- **Automated Platform API validation**
-- **Consistent project structure**
-- **Built-in protocol handler support**
-
-**Last Updated**: 19/07/2025
-**Method**: Completed clarification process integration
+**Deprecated**: 20/07/2025
+**Replacement**: AI Workflow Guide system
+**Current**: prompt-templates/current-ai-workflow-prompt.md
+**Critical**: Do not use - causes method selection issues

@@ -1,125 +1,108 @@
 # HERE® Core Container AI Reference System
 
 ## Purpose
-Comprehensive reference repository for AI assistants supporting HERE® Core Container customer interactions. Provides structured workflows, technical patterns, and terminology guidance for consistent, high-quality support.
+Comprehensive reference repository for AI assistants supporting HERE® Core Container customer interactions.
 
-## Repository Structure
+## 🚀 For Support Team - How to Use This Repository
 
-### Core Workflow Files
-- **[ai-workflow-guide.md](ai-workflow-guide.md)** - Entry point for all AI assistant workflows
-- **[glossary.md](glossary.md)** - Comprehensive terminology with external documentation links
-- **[detailed-workflows/](detailed-workflows/)** - Step-by-step process documentation
+### Current AI Workflow Prompt (USE THIS)
+**For all HERE® Core Container AI assistance, use this prompt:**
 
-### Technical Resources
-- **[technical-patterns/](technical-patterns/)** - API-specific implementation patterns and best practices
-- **[api-reference/](api-reference/)** - Templates and configuration examples
-- **[code-templates/](code-templates/)** - Script generation guidelines and templates
-
-### Support Materials
-- **[prompt-templates/](prompt-templates/)** - Standard conversation starters and formats
-- **[learning-log/](learning-log/)** - Continuous improvement documentation
-- **[privacy-guidelines.md](privacy-guidelines.md)** - Customer data protection guidelines
-
-## Supported Deliverable Types
-
-### Reproduction Samples
-Complete runnable projects that replicate customer issues for debugging and resolution.
-
-### General Starters
-Foundation template projects providing starting points for HERE® Core Container development.
-
-### Query Responses
-Information and guidance without runnable code for conceptual or procedural questions.
-
-### Educational Demos
-Conceptual examples demonstrating specific HERE® Core Container capabilities.
-
-## Quick Start for AI Assistants
-
-### Basic Workflow
-1. **Start with**: [ai-workflow-guide.md](ai-workflow-guide.md)
-2. **Reference terminology**: [glossary.md](glossary.md)
-3. **Follow detailed processes**: [detailed-workflows/](detailed-workflows/)
-4. **Access technical patterns**: [technical-patterns/](technical-patterns/) as needed
-
-### Standard Prompt Template
 ```
 Working with HERE® Core Container support team. Please review the AI workflow guide at:
-https://github.com/TonyBarkell/here-core-ai-references/blob/main/ai-workflow-guide.md
+https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/ai-workflow-guide.md
 
 Then follow the information gathering workflow for this request: [CUSTOMER_REQUEST]
 ```
 
+### Why This Prompt Works
+- ✅ **Systematic information gathering** before creating deliverables
+- ✅ **API detection and confirmation** for accurate technical guidance
+- ✅ **Optimal method selection** (layout restore vs sequential creation)
+- ✅ **Performance optimization** for Platform API scenarios
+- ✅ **Error prevention** through structured workflow
+
+### ❌ Deprecated Templates (DO NOT USE)
+These templates will cause method selection issues:
+
+- ~~prompt-templates/basic-reproduction.md (OLD)~~ - Jumps to implementation without workflow
+
+**Problem:** They bypass information gathering that prevents layout vs sequential confusion.
+
+### Usage Example
+**Customer Request:** Loading a Platform API window with 20 views takes 5 minutes
+
+**Complete Prompt:**
+```
+Working with HERE® Core Container support team. Please review the AI workflow guide at:
+https://raw.githubusercontent.com/TonyBarkell/here-core-ai-references/refs/heads/main/ai-workflow-guide.md
+
+Then follow the information gathering workflow for this request:
+Loading a Platform API window with 20 views takes 5 minutes to complete.
+```
+
+**Expected AI Behavior:**
+1. ✅ Access workflow guide
+2. ✅ Detect Platform API + performance issue
+3. ✅ Ask about method preference: layout restore vs sequential
+4. ✅ Implement with optimal approach
+
+## Repository Structure
+
+### Core Workflow Files
+- **ai-workflow-guide.md** - Entry point for all AI workflows
+- **glossary.md** - HERE® terminology with external links
+- **detailed-workflows/** - Step-by-step processes
+
+### Technical Resources
+- **technical-patterns/** - API-specific patterns
+- **code-templates/** - Script generation guidelines
+- **prompt-templates/** - Current conversation starters
+
+## Supported Deliverable Types
+
+- **Reproduction Samples** - Complete runnable projects
+- **General Starters** - Foundation templates
+- **Query Responses** - Information without code
+- **Educational Demos** - Conceptual examples
+
 ## Key Features
 
-### Intelligent Workflow Routing
-- Automatic detection of request types and API scope
-- Conditional access to technical patterns based on requirements
-- Progressive clarification process for ambiguous requests
-
 ### Performance Optimization
-- Layout restore vs sequential creation guidance for multiple views
-- Method selection based on use case requirements
-- Performance measurement patterns and debugging support
+- Layout restore vs sequential creation guidance
+- Method selection based on use case
+- Performance measurement patterns
 
 ### Error Prevention
 - Bulletproof script generation guidelines
 - Platform API configuration validation
-- Common terminology confusion prevention
+- Terminology confusion prevention
 
-### Continuous Learning
-- Learning capture mechanisms in all files
-- Pattern discovery and integration workflows
-- Cross-referenced documentation for easy maintenance
-
-## Integration Points
-
-### External Documentation
-The repository extensively links to official HERE® documentation:
-- Layout patterns: https://resources.here.io/docs/core/container/layouts/save-layouts
-- Platform API: https://resources.here.io/docs/core/container/platform-provider
-- Process Manager: https://process-manager.here.io
-
-### Development Tools
-- Setup script automation for complete project generation
-- Protocol handler support for easy application launching
-- HERE Process Manager integration for debugging
-
-## Contributing and Updates
-
-### Learning Integration
-Each interaction with the repository can contribute to its knowledge base:
-- New terminology automatically captured in glossary
-- Pattern discoveries integrated into technical files
-- Workflow improvements documented in learning log
-
-### Update Process
-1. Identify new patterns or improvements during support interactions
-2. Document findings in appropriate repository files
-3. Update cross-references and navigation links
-4. Test workflow with updated content
-5. Commit changes with descriptive learning documentation
-
-## Support Team Usage
+## Support Team Guidelines
 
 ### For Customer Support Representatives
-- Use standard prompt templates for consistent AI interactions
-- Reference glossary for HERE® terminology clarification
-- Follow workflow guides for structured problem-solving approach
+- **Always use current workflow prompt**
+- **Never use deprecated templates**
+- **Expect systematic information gathering**
 
 ### For Technical Support Engineers
-- Access technical patterns for implementation guidance
-- Use reproduction sample templates for issue replication
-- Contribute new patterns and learnings to repository
+- **Verify AI follows workflow**
+- **Access technical patterns for guidance**
+- **Contribute new patterns to repository**
 
-### For Support Managers
-- Monitor learning log for process improvements
-- Review workflow effectiveness and identify optimization opportunities
-- Ensure team adherence to established patterns and guidelines
+## Troubleshooting
+
+### If AI Skips Information Gathering
+- ✅ Check prompt template usage
+- ❌ Avoid old basic-reproduction.md
+- 🔧 Reference workflow guide directly
+
+### If AI Makes Wrong Method Selection
+- ✅ Verify API detection phase
+- ✅ Check method selection reasoning
+- 🔧 Provide clarification on requirements
 
 ---
 
 **Last Updated**: 20/07/2025
-**Repository Version**: Tree Structure with Entry Point and Enhanced Glossary
-**Primary Contact**: HERE® Core Container Support Team
-**Documentation**: Complete AI assistant workflow system for HERE® Core Container support
+**Critical**: Always use current AI workflow prompt for optimal results
