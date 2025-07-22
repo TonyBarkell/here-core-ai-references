@@ -104,5 +104,19 @@ Loading a Platform API window with 20 views takes 5 minutes to complete.
 
 ---
 
-**Last Updated**: 20/07/2025
+**Last Updated**: 2025-07-22T12:34:01.315Z
 **Critical**: Always use current AI workflow prompt for optimal results
+## 🔧 CRITICAL FIXES APPLIED - Enhanced Error Prevention (MacOS Node.js Failures)
+
+### Script Generation Error Prevention (PRODUCTION TESTED)
+- ✅ **Fixed**: MacOS Node.js syntax errors with bulletproof patterns
+- ✅ **Required**: Incremental string building for all content generation
+- ✅ **Validated**: Mandatory pre/post generation checklists
+- ✅ **Recovery**: Systematic error recovery workflow
+
+### Enhanced Script Generation (MANDATORY)
+- ✅ **Primary Delivery**: Node.js setup scripts using bulletproof patterns only
+- ✅ **Validation**: Pre-generation safety mode confirmation required
+- ✅ **Error Prevention**: Three production failure patterns documented and solved
+- ✅ **Recovery**: Systematic workflow for Node.js syntax error resolution
+
